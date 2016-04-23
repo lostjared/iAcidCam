@@ -190,7 +190,7 @@
 		7F199CA517692C5D00810F78 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0460;
+				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = "Jared Bruni";
 				TargetAttributes = {
 					7F199CAC17692C5E00810F78 = {
@@ -281,6 +281,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -337,6 +338,7 @@
 				GCC_PREFIX_HEADER = "iAcid.Cam/iAcid.Cam-Prefix.pch";
 				INFOPLIST_FILE = "iAcid.Cam/iAcid.Cam-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				PRODUCT_BUNDLE_IDENTIFIER = "LostSideDead.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
@@ -358,6 +360,7 @@
 				GCC_PREFIX_HEADER = "iAcid.Cam/iAcid.Cam-Prefix.pch";
 				INFOPLIST_FILE = "iAcid.Cam/iAcid.Cam-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				PRODUCT_BUNDLE_IDENTIFIER = "LostSideDead.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "8B44832D-2908-43CB-8FCC-184D4528B6BB";
